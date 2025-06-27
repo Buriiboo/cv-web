@@ -1,0 +1,279 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<title>Brian Gomez Santiestevez - Web CV</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #0c7ff2;
+      --secondary-color: #1f2937;
+      --text-primary: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --background-dark: #111827;
+      --container-background: #1f2937;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 19px;
+      top: 40px;
+      bottom: -16px;
+      width: 2px;
+      background-color: #374151;
+    }
+    .timeline-item:last-child::before {
+      display: none;
+    }
+    .skill-bar-bg {
+      background-color: #374151;
+    }
+    .skill-bar-fill {
+      background-color: var(--primary-color);
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: var(--text-primary);
+      margin-bottom: 1.5rem;
+      padding-top: 2.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid #374151;
+    }
+  </style>
+</head>
+<body class="bg-[var(--background-dark)] text-[var(--text-primary)]" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-10 sm:py-16">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 bg-[var(--container-background)] p-6 sm:p-8 md:p-12 rounded-xl shadow-2xl">
+<header class="flex flex-col md:flex-row items-center gap-8 border-b border-[#374151] pb-8 mb-8">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32 md:min-h-40 md:w-40 shadow-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCVLMqIuvQ9cx1hT5NgooHtbfQ4Fj_uIlkd_znBUhlHpU3kPM_QG1Iwelw-nNPUEcx4gXGNTpQSXp17zxAopXm3ePC5j9CRszPjqaEsIC72NQmNv9v5JH8uZEjxbkOLmuhkOgCpEsDAQuQ4du-e-Zwfxdxcef6bQxVGPkvVwHVnkikj3dMt-FT6cc_m1T9fhhWNVZJzVKPYdxq8_-JspxMOYoeRzufBLUO-1dnHH4Y-tvLhQZu1Z_SkxfgqVpeiRMfY3jZX93JT6x0Q");'></div>
+<div class="flex flex-col items-center md:items-start text-center md:text-left">
+<h1 class="text-[var(--text-primary)] text-3xl sm:text-4xl font-bold leading-tight tracking-tight">Brian Gomez Santiestevez</h1>
+<p class="text-[var(--text-secondary)] text-lg sm:text-xl font-medium">Aspiring Software Developer</p>
+<div class="text-[var(--text-secondary)] text-base font-normal mt-2 space-y-1">
+<p class="flex items-center">
+<span class="material-icons align-middle text-lg text-[var(--primary-color)] mr-2">email</span> Buraian@live.se
+                </p>
+<p class="flex items-center">
+<span class="material-icons align-middle text-lg text-[var(--primary-color)] mr-2">phone</span> 073-61 03 485
+                </p>
+<p class="flex items-center">
+<span class="material-icons align-middle text-lg text-[var(--primary-color)] mr-2">location_on</span> Kaprisgatan 69, Angered
+                </p>
+</div>
+</div>
+</header>
+<section class="mb-12" id="bio">
+<p class="text-[var(--text-secondary)] text-base sm:text-lg leading-relaxed text-center md:text-left">
+              A dedicated and adaptable individual with a background in social psychology, currently pursuing a degree in Object-Oriented Programming with AI. Eager to leverage analytical skills and a newfound passion for technology to contribute to innovative software solutions. Quick learner with experience in customer-facing roles and a strong work ethic.
+            </p>
+</section>
+<section class="mb-12" id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-4">
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">code</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Python</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">flutter_dash</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Flutter</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">data_object</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Dart</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">code</span>
+<p class="text-[var(--text-primary)] text-base font-medium">C#</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">firebase</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Firebase</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">storage</span>
+<p class="text-[var(--text-primary)] text-base font-medium">MySQL</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">desktop_windows</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Visual Studio</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">code</span>
+<p class="text-[var(--text-primary)] text-base font-medium">PyCharm</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">description</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Word</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">table_chart</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Excel</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">apps</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Treserva</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">schedule</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Timecare</p>
+</div>
+<div class="flex items-center gap-2 p-3 bg-[#374151]/50 rounded-lg">
+<span class="material-icons text-[var(--primary-color)]">apps</span>
+<p class="text-[var(--text-primary)] text-base font-medium">Millenium</p>
+</div>
+</div>
+</section>
+<section class="mb-12" id="experience">
+<h2 class="section-title">Work Experience</h2>
+<div class="relative">
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">work</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Myndigheten för Vård- och Omsorg för äldre</p>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Nov 2018 – May 2023</p>
+</div>
+</div>
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">work</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Funktionshinder &amp; psykiatriavdelningen</p>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Jun 2017 – Oct 2018</p>
+</div>
+</div>
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">work</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Kofferdalens korttidshem</p>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Jul 2016 – Aug 2016</p>
+</div>
+</div>
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">work</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">The Infinity Group AB</p>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Nov 2013 – Feb 2014</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-12" id="education">
+<h2 class="section-title">Education</h2>
+<div class="relative">
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">school</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Object-Oriented Programming with AI</p>
+<p class="text-[var(--text-secondary)] text-base font-medium">Göteborg</p>
+<p class="text-[var(--text-secondary)] text-sm">Aug 2023 – Jun 2025 (Expected)</p>
+</div>
+</div>
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">school</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Bachelor's in Social Psychology</p>
+<p class="text-[var(--text-secondary)] text-base font-medium">Högskolan i Skövde</p>
+<p class="text-[var(--text-secondary)] text-sm">Aug 2014 – Jun 2017</p>
+</div>
+</div>
+<div class="timeline-item grid grid-cols-[auto_1fr] gap-x-4 pb-8">
+<div class="flex flex-col items-center pt-1">
+<div class="rounded-full bg-[var(--primary-color)] p-2.5 shadow-md">
+<span class="material-icons text-white text-xl">school</span>
+</div>
+</div>
+<div class="flex flex-col">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Science</p>
+<p class="text-[var(--text-secondary)] text-base font-medium">Göteborgs Tekniska Institut</p>
+<p class="text-[var(--text-secondary)] text-sm">Aug 2010 – Jun 2013</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-12" id="languages">
+<h2 class="section-title">Languages</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div class="flex flex-col items-center p-4 bg-[#374151]/50 rounded-lg">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Swedish</p>
+<p class="text-[var(--text-secondary)] text-sm">Native</p>
+</div>
+<div class="flex flex-col items-center p-4 bg-[#374151]/50 rounded-lg">
+<p class="text-[var(--text-primary)] text-lg font-semibold">English</p>
+<p class="text-[var(--text-secondary)] text-sm">Fluent</p>
+</div>
+<div class="flex flex-col items-center p-4 bg-[#374151]/50 rounded-lg">
+<p class="text-[var(--text-primary)] text-lg font-semibold">Spanish</p>
+<p class="text-[var(--text-secondary)] text-sm">Native</p>
+</div>
+</div>
+</section>
+<section class="mb-12" id="other">
+<h2 class="section-title">Other</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
+<div>
+<p class="text-[var(--text-primary)] text-base font-semibold flex items-center">
+<span class="material-icons text-[var(--primary-color)] mr-2">directions_car</span> Driver's License: B
+                    </p>
+</div>
+<div>
+<p class="text-[var(--text-primary)] text-base font-semibold flex items-center">
+<span class="material-icons text-[var(--primary-color)] mr-2">group</span> References: Available upon request
+                    </p>
+</div>
+</div>
+</section>
+<section id="contact-info">
+<h2 class="section-title">Contact</h2>
+<div class="text-center md:text-left space-y-3">
+<p class="text-[var(--text-secondary)] text-base flex items-center justify-center md:justify-start">
+<span class="material-icons text-[var(--primary-color)] mr-2">email</span> Buraian@live.se
+              </p>
+<p class="text-[var(--text-secondary)] text-base flex items-center justify-center md:justify-start">
+<span class="material-icons text-[var(--primary-color)] mr-2">phone</span> 073-61 03 485
+              </p>
+<p class="text-[var(--text-secondary)] text-base flex items-center justify-center md:justify-start">
+<span class="material-icons text-[var(--primary-color)] mr-2">location_on</span> Kaprisgatan 69, Angered
+              </p>
+</div>
+</section>
+<footer class="mt-16 pt-8 border-t border-[#374151] text-center">
+<p class="text-[var(--text-secondary)] text-sm">© 2024 Brian Gomez Santiestevez. All rights reserved.</p>
+<p class="text-[var(--text-secondary)] text-xs mt-1">
+</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>
